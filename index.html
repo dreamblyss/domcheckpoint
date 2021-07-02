@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GoMyCode CSS Layout Project">
+    <meta name="keywords" content="GoMyCode CSS DocPlanner Layout Project">
+    <meta name="author" content="Henry Iwekuba">
+    <link rel="stylesheet" href="res/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+    <!--BOOTSTRAP CDN-->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<!--JQuery-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSm"></script>
+
+
+    <title>Doc Planner Project</title>
+
+    <script src="res/js/store.js" async></script>
+
+</head>
+<body>
+
+
+    <header class="menu">
+
+        <nav class="left">
+            <h1>SHOPPING CART</h1>
+        </nav>
+
+        <nav class="right">
+            <a href="aboutus.hml" class="default">Home</a>
+            <a href="careers.html">Store</a>
+            <a href="departments">About</a>
+        </nav>
+        
+    </header>
+
+<section class="central-section">
+
+    <section class="star-logo">
+        <img class="lead__logo" src="https://cdn.pixabay.com/photo/2017/08/01/16/38/record-2566503__340.jpg">
+    </section>
+
+    <section class="title">
+        <h1>Music Shop</h1>
+    </section>
+ 
+   <div class="box box-inner">
+
+        
+        <div class="mini-box box-1 shop-item">
+            <span class="shop-item-title title">
+                Michael Jackson - Thriller 
+            </span>    
+                <img src="res/img/mike.jpg" class="artiste shop-item-image">
+                <div class="pay shop-item-details">
+                        <span class="shop-item-price">500</span>
+
+                        <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+
+                </div>
+                
+                 
+          
+        </div>
+
+
+          <div class="mini-box box-1 shop-item">
+            <span class="shop-item-title title">
+                Babyface - Lovers 
+            </span>    
+                <img src="res/img/babyface.jpg" class="artiste shop-item-image">
+                <div class="pay shop-item-details">
+                        <span class="shop-item-price">500</span>
+
+                        <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+
+                </div>
+                
+                 
+          
+        </div>
+
+
+
+
+         <div class="mini-box box-1 shop-item">
+            <span class="shop-item-title title">
+                Micheal Bolton - The one thing
+            </span>    
+                <img src="res/img/bolton.jpg" class="artiste shop-item-image">
+                <div class="pay shop-item-details">
+                        <span class="shop-item-price">500</span>
+
+                        <button class="btn btn-primary shop-item-button" type="button">Add To Cart</button>
+
+                </div>
+                
+                 
+          
+        </div>
+
+    
+
+</section>
+
+<div class="purchase">
+
+    <div class="cart"><h2>CART</h2></div>
+
+    <div class="compute">
+        
+        <div class="span">ITEM</div>
+
+        <div class="span">PRICE</div>
+
+        <div class="span">QUANTITY</div>
+
+      </div>
+
+
+    <div class="cart-items">
+        
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="res/img/mike.jpg" width="100" height="100"
+                ><span class="cart-item-title">Thriller Album</span>
+            </div>
+
+            <span class="cart-price cart-column">19.99</span>
+
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="1">
+                <button class="btn btn-danger" type="button">REMOVE</button>
+            </div>
+        </div>
+
+
+        
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="res/img/mike.jpg" width="100" height="100"
+                ><span class="cart-item-title">Thriller Album</span>
+            </div>
+
+            <span class="cart-price cart-column">9.99</span>
+
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="1">
+                <button class="btn btn-danger" type="button">REMOVE</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price"></span>
+    </div>
+
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+
+    
+
+
+
+
+
+<footer class="footer">
+
+    &copy;2021
+</footer>
+
+    
+</body>
+</html>
